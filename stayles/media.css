@@ -1,3 +1,19 @@
-@media(max-width: 1400px) {
-    
+~
+@media(max-width: 576px){
+    .main__info-3, .main__info-2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header__content-title{
+        text-align: center;
+    }
+    .main__info-img1{
+        width: 100%;
+    }
+    .main__box{
+        justify-content: center;
+    }
+    .header__content-title{
+        font-size: 50px;
+    }
 }
